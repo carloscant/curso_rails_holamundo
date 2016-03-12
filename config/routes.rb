@@ -1,4 +1,8 @@
 Holamundo::Application.routes.draw do
+  get "dime/hola"
+
+  get "dime/adios"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
